@@ -24,12 +24,12 @@ Run these locally before opening the PR — they're exactly what CI checks:
 
 ## Checklist
 
-- [ ] Added/updated exactly one entry in `.grok-plugin/marketplace.json` (valid JSON, kebab-case `name`).
+- [ ] Added/updated exactly one entry in `.agents/plugins/marketplace.json` (valid JSON, kebab-case `name`).
 - [ ] Remote source pins a full 40-char lowercase commit `sha`, and that commit is public + reachable.
-- [ ] Regenerated `.grok-plugin/plugin-index.json` (`python3 scripts/generate-plugin-index.py`).
+- [ ] Regenerated `.agents/plugins/plugin-index.json` (`python3 scripts/generate-plugin-index.py`).
 - [ ] `python3 scripts/validate-catalog.py` passes locally.
 - [ ] `python3 scripts/generate-plugin-index.py --check` passes locally.
-- [ ] `homepage` + clear `description` set; local plugins include `README.md` + `.grok-plugin/plugin.json`.
+- [ ] `homepage` + clear `description` set; local plugins include `README.md` + `.codex-plugin/plugin.json`.
 - [ ] License is stated.
 
 ## Security

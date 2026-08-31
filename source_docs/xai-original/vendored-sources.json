@@ -1,0 +1,92 @@
+{
+  "generated_by": "scripts/vendor_xai_plugins.py",
+  "plugins": {
+    "sentry": {
+      "url": "https://github.com/getsentry/plugin-grok.git",
+      "sha": "7f9d7823a68a7668867786a573ef587ef2783f7d",
+      "manifest": ".grok-plugin",
+      "paths": [
+        ".grok-plugin/plugin.json",
+        ".mcp.json",
+        "LICENSE",
+        "README.md",
+        "assets",
+        "skills"
+      ]
+    },
+    "axiom": {
+      "url": "https://github.com/axiomhq/skills.git",
+      "sha": "0e98ebaeec76a70c8fda9a7737605800c2f1245d",
+      "manifest": ".grok-plugin",
+      "paths": [
+        ".grok-plugin/plugin.json",
+        ".mcp.json",
+        "LICENSE",
+        "README.md",
+        "skills"
+      ]
+    },
+    "firecrawl": {
+      "url": "https://github.com/firecrawl/firecrawl-grok-plugin.git",
+      "sha": "af6c6c083ccfd74ae476761068ee4311a56e8282",
+      "manifest": ".grok-plugin",
+      "paths": [
+        ".grok-plugin/plugin.json",
+        ".mcp.json",
+        "README.md",
+        "commands",
+        "skills"
+      ]
+    },
+    "exa": {
+      "url": "https://github.com/exa-labs/exa-grok-plugin.git",
+      "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
+      "manifest": ".grok-plugin",
+      "paths": [
+        ".grok-plugin/plugin.json",
+        ".mcp.json",
+        "README.md",
+        "commands",
+        "rules",
+        "skills"
+      ]
+    },
+    "tavily": {
+      "url": "https://github.com/tavily-ai/tavily-grok-plugin.git",
+      "sha": "0cfd0c2be2df4a2a90c683abaadaf36ef7f2f59d",
+      "manifest": ".grok-plugin",
+      "paths": [
+        ".grok-plugin/plugin.json",
+        ".mcp.json",
+        "LICENSE",
+        "README.md",
+        "skills"
+      ]
+    },
+    "pstack": {
+      "url": "https://github.com/cursor/plugins.git",
+      "sha": "bdf7aa355337897f167153e05069aca505dae17c",
+      "manifest": ".cursor-plugin",
+      "path": "pstack",
+      "paths": [
+        "pstack/.cursor-plugin",
+        "pstack/LICENSE",
+        "pstack/README.md",
+        "pstack/agents",
+        "pstack/skills"
+      ]
+    },
+    "browser-use": {
+      "url": "https://github.com/browser-use/plugins.git",
+      "sha": "4749bcbfe456e5384b98281a8a66119352197f59",
+      "manifest": ".grok-plugin",
+      "path": "grok",
+      "paths": [
+        "grok/.grok-plugin/plugin.json",
+        "grok/.mcp.json",
+        "grok/README.md",
+        "grok/skills"
+      ]
+    }
+  }
+}

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""Generate the plugin component catalog (.grok-plugin/plugin-index.json).
+"""Generate the plugin component catalog (.agents/plugins/plugin-index.json).
 
-For every entry in `.grok-plugin/marketplace.json`, this script resolves the
+For every entry in `.agents/plugins/marketplace.json`, this script resolves the
 plugin's source (local directories are scanned in place; url sources are
 shallow-fetched at their pinned commit sha) and records version (when set)
 plus components: skills, commands, agents, MCP servers, hooks, and LSP
@@ -25,8 +25,8 @@ from pathlib import Path
 
 import plugin_catalog
 
-INDEX_PATH = Path(".grok-plugin/plugin-index.json")
-CATALOG_PATH = Path(".grok-plugin/marketplace.json")
+INDEX_PATH = Path(".agents/plugins/plugin-index.json")
+CATALOG_PATH = Path(".agents/plugins/marketplace.json")
 
 
 def resolve_local(repo_root: Path, path: str, name: str) -> Path:

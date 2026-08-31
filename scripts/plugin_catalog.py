@@ -4,7 +4,7 @@
 One extract path given a plugin root on disk (already resolved at a known
 sha / local path):
 
-  - load manifest (.grok-plugin/plugin.json or .claude-plugin/plugin.json)
+  - load manifest (.codex-plugin/plugin.json or .claude-plugin/plugin.json)
   - read version if present
   - scan components (skills, commands, agents, mcpServers, hooks, lspServers)
 
@@ -29,7 +29,7 @@ FETCH_ATTEMPTS = 3
 SHA_RE = re.compile(r"^[0-9a-f]{40}$")
 
 MANIFEST_PATHS = [
-    Path(".grok-plugin/plugin.json"),
+    Path(".codex-plugin/plugin.json"),
     Path(".claude-plugin/plugin.json"),
 ]
 

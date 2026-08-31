@@ -49,8 +49,8 @@ except ImportError:  # pragma: no cover
     ZoneInfo = None  # type: ignore[misc, assignment]
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-CATALOG_PATH = Path(".grok-plugin/marketplace.json")
-INDEX_PATH = Path(".grok-plugin/plugin-index.json")
+CATALOG_PATH = Path(".agents/plugins/marketplace.json")
+INDEX_PATH = Path(".agents/plugins/plugin-index.json")
 INDEX_SCRIPT = Path("scripts/generate-plugin-index.py")
 SHA_RE = plugin_catalog.SHA_RE
 ALLOWED_HOSTS = {"github.com", "gitlab.com", "bitbucket.org"}
@@ -427,7 +427,7 @@ def apply_plugin_bump(
         f"- **new sha:** `{new_sha}` (HEAD when the bump was observed)",
         f"- **base:** `{daily_branch}`",
         "",
-        "Catalog SHA updated and `.grok-plugin/plugin-index.json` regenerated "
+        "Catalog SHA updated and `.agents/plugins/plugin-index.json` regenerated "
         f"at the new pin. {why}",
         "",
         "Targets the daily base, not `main`. Merge into the daily branch "

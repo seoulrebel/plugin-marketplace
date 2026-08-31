@@ -1,0 +1,17 @@
+{
+  "name": "exa",
+  "version": "1.1.0",
+  "description": "Exa is the fastest and most accurate web search for AI. It searches the web in real time, reads relevant pages, and answers with up-to-date sources. Use it to find the latest code docs, news, company information, and much more. Use the exa-search skill for deep research, and sign up for Exa to get free credits.",
+  "author": {
+    "name": "Exa",
+    "url": "https://github.com/exa-labs"
+  },
+  "repository": "https://github.com/exa-labs/exa-grok-plugin",
+  "homepage": "https://exa.ai",
+  "license": "MIT",
+  "keywords": [
+    "exa",
+    "exa search",
+    "exa ai"
+  ]
+}
